@@ -13,7 +13,7 @@ Patch2:		XFree86-new-s3-headers.patch
 BuildRequires:	XFree86-Xserver-devel > 1:4.3.99.902-0.1
 BuildRequires:	ed
 Obsoletes:	XFree86-driver-savage
-%requires_eq_to XFree86-Xserver XFree86-Xserver-devel
+%{requires_eq_to XFree86-Xserver XFree86-Xserver-devel}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
