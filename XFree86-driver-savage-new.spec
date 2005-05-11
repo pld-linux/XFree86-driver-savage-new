@@ -14,7 +14,7 @@ BuildRequires:	XFree86-Xserver-devel > 1:4.3.99.902-0.1
 BuildRequires:	ed
 %{requires_eq_to XFree86-Xserver XFree86-Xserver-devel}
 Obsoletes:	XFree86-driver-savage
-ExclusiveArch:	%{ix86} mips ppc arm amd64
+ExclusiveArch:	%{ix86} mips ppc arm %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
