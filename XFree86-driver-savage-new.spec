@@ -1,5 +1,5 @@
 Summary:	New version of S3 Savage driver for XFree86
-Summary(pl):	Nowa wersja sterownika S3 Savage dla XFree86
+Summary(pl.UTF-8):   Nowa wersja sterownika S3 Savage dla XFree86
 Name:		XFree86-driver-savage-new
 Version:	1.1.18bld2
 Release:	1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 New version of S3 Savage driver for XFree86.
 
-%description -l pl
+%description -l pl.UTF-8
 Nowa wersja sterownika S3 Savage dla XFree86.
 
 %prep
