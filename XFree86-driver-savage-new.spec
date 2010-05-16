@@ -12,6 +12,7 @@ Patch1:		XFree86-new-s3-pScreen.patch
 Patch2:		XFree86-new-s3-headers.patch
 BuildRequires:	XFree86-Xserver-devel > 1:4.3.99.902-0.1
 BuildRequires:	ed
+BuildRequires:	unzip
 %{requires_eq_to XFree86-Xserver XFree86-Xserver-devel}
 Obsoletes:	XFree86-driver-savage
 ExclusiveArch:	%{ix86} mips ppc arm %{x8664}
